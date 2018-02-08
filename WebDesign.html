@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Design</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Vidaloka" rel="stylesheet">
+    <style>
+        img {
+            width: 100%;
+        }
+        * {
+            box-sizing: border-box
+        }
+        .slideshow-container {
+            max-width: 700px;
+            max-height: 700px;
+            position: relative;
+            margin: auto;
+        }
+        .mySlides {
+            display: none;
+        }
+        .prev,
+        .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            margin-top: -22px;
+            padding: 16px;
+            color: black;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+        }
+        .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+        }
+        .prev:hover,
+        .next:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+        .text {
+            color: #e6e6e6;
+            font-size: 1em;
+            bottom: 1px;
+            width: 100%;
+            text-align: center;
+        }
+        .fade {
+            -webkit-animation-name: fade;
+            -webkit-animation-duration: 1.5s;
+            animation-name: fade;
+            animation-duration: 1.5s;
+        }
+        @keyframes fade {
+            from {
+                opacity: .4
+            }
+            to {
+                opacity: 1
+            }
+        }
+        #p_ft {
+            color: black;
+        }
+        #header_webdesign {
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body id="body_WebDesign">
+
+    <header>
+
+        <img class="logo" src="images/logo.png" alt="Here is the logo.">
+        <input type="checkbox" id="toggle">
+        <label for="toggle">&#9776;</label>
+        <nav>
+            <ul>
+                <li><a href="home.html" class="page">Home</a></li>
+                <li><a href="portfolio.html" class="page">Portfolio</a></li>
+                <li><a href="about.html" class="page">About</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <h1 id="title1">I) Responsive Website: Psychedelic style</h1>
+    <a class="link_UX" href="http://alexandruguta.com/kea/01-web/responsive/home.html"><img class="img_psychedelic" src="images/psychedelic_Style.jpg" alt="Psychedelic Style Website"></a>
+    <h1 id="title2">II) Redesign case- Group Project</h1>
+
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <img src="images/Presentation/Presentation,%20group%2012_Page_01.jpg" alt="page 0">
+            <div class="text">Presentation</div>
+        </div>
+        <div class="mySlides fade">
+            <img src="images/Presentation/Presentation,%20group%2012_Page_02.jpg" alt="page 1">
+            <div class="text">Group members</div>
+        </div>
+        <div class="mySlides fade">
+            <img src="images/Presentation/Presentation,%20group%2012_Page_03.jpg" alt="page 2">
+            <div class="text">Existing Website</div>
+        </div>
+        <div class="mySlides fade">
+            <img src="images/Presentation/Presentation,%20group%2012_Page_04.jpg" alt="page 3">
+            <div class="text">Bad design principles</div>
+        </div>
+        <div class="mySlides fade">
+            <img src="images/Presentation/Presentation,%20group%2012_Page_05.jpg" alt="page 4">
+            <div class="text">Test report</div>
+        </div>
+        <div class="mySlides fade">
+            <img src="images/Presentation/Presentation,%20group%2012_Page_06.jpg" alt="page 5">
+            <div class="text">Moodboard</div>
+        </div>
+        <div class="mySlides fade">
+            <img src="images/Presentation/Presentation,%20group%2012_Page_07.jpg" alt="page 6">
+            <div class="text">Logo</div>
+        </div>
+        <div class="mySlides fade">
+            <img src="images/Presentation/Presentation,%20group%2012_Page_08.jpg" alt="page 7">
+            <div class="text">Style tile</div>
+        </div>
+        <div class="mySlides fade">
+            <img src="images/Presentation/Presentation,%20group%2012_Page_09.jpg" alt="page 8">
+            <div class="text">Scketches</div>
+        </div>
+        <div class="mySlides fade">
+            <img src="images/Presentation/Presentation,%20group%2012_Page_10.jpg" alt="page 9">
+            <div class="text">Paper prototypes</div>
+        </div>
+        <div class="mySlides fade">
+            <img src="images/Presentation/Presentation,%20group%2012_Page_11.jpg" alt="page 10">
+            <div class="text">Wireframes</div>
+        </div>
+        <div class="mySlides fade">
+            <img src="images/Presentation/Presentation,%20group%2012_Page_12.jpg" alt="page 11">
+            <div class="text">Desktop view</div>
+        </div>
+        <div class="mySlides fade">
+            <img src="images/Presentation/Presentation,%20group%2012_Page_13.jpg" alt="page 12">
+            <div class="text">Mobile view</div>
+        </div>
+        <div class="mySlides fade">
+            <img src="images/Presentation/Presentation,%20group%2012_Page_14.jpg" alt="page 13">
+            <div class="text">Design principles</div>
+        </div>
+        <div class="mySlides fade">
+            <img src="images/Presentation/Presentation,%20group%2012_Page_15.jpg" alt="page 14">
+            <div class="text">Code snippets</div>
+        </div>
+        <div class="mySlides fade">
+            <img src="images/Presentation/Presentation,%20group%2012_Page_16.jpg" alt="page 15">
+            <div class="text">Test results</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <a class="link_UX" href="http://alexandruguta.com/kea/01-web/redesign/index.html"><img src="images/exmouth_view_hotel.jpg" alt="Exmouth View Hotel"></a>
+
+    <footer>
+        <p id="ft_Web">Portfolio 2017 by Alexandru Guta</p>
+    </footer>
+
+
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            if (n > slides.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = slides.length
+            }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slides[slideIndex - 1].style.display = "block";
+        }
+
+    </script>
+</body>
+
+</html>
